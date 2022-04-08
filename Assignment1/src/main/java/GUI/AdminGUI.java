@@ -213,6 +213,7 @@ public class AdminGUI extends JFrame {
             }
 
             vacationController.insertVacation(location, price, start, end, numberOfUsers);
+            resultLabel.setText("CREATED");
         });
     }
 
